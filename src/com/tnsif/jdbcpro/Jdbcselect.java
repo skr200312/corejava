@@ -10,7 +10,7 @@ public class Jdbcselect {
 		// step 3:Establish connection
 		
 		try {
-			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sri_indu","root","200312sai@#S");
+			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sri_indu","root","password");
 			
 			// step 4: create statement
 			
