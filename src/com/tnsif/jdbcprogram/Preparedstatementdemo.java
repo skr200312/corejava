@@ -12,7 +12,7 @@ public class Preparedstatementdemo {
 		// step 2
 		// step 3 establish connection
 		try {
-			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sri_indu","root","200312sai@#S");
+			Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sri_indu","root","password");
 			
 		// step 4 create statement
 			
